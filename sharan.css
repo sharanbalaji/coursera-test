@@ -1,0 +1,51 @@
+
+.container{
+    width:95%;
+    overflow: hidden;
+    background-color: aqua;
+    margin:0px auto;
+    padding:0px;
+}
+
+.container .box{
+    list-style: none;
+    float:left;
+    width:57%;
+    height:350px;
+    background-color:peru;
+    margin: 40px 40px 40px 40px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+body h2 {
+margin: 2px;
+border:5px solid white;
+text-align:center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;;
+}
+@media (min-width:1000px){
+   .container .box{
+        width:25%;
+        margin-left: 25px;
+        margin:50px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .container .box{
+        width:25%;
+        margin-left: 25px;
+        margin:50px;
+    } 
+}
+@media (min-width:<=767px){
+    .container .box{
+        width:25%;
+        margin-left: 25px;
+        margin:50px;
+}
