@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pseudoclass1</title>
+        <style>
+            header li{
+                list-style: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        a:link, a:visited{
+            text-decoration: none;
+            list-style: none;
+            border:1px;
+            color:indigo;
+           
+            display:block;
+            width:150px;
+            margin-bottom: 1px;
+        } 
+        a:hover, a:active{
+            background-color:lightblue;
+        } 
+        body h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        section h1{
+             color: magenta;
+        }
+        section div:nth-child(odd){
+            background-color: maroon;
+            display:block;
+            width:300px;
+        }
+       a:hover , section div:nth-child(1){
+            background-color: palegoldenrod;
+            cursor:pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <h1> welcome to my page!</h1>
+
+        <header>
+            <ul>
+                <li><a href="childselector.html"><h1>Child</h1></a></li>
+                <li><a href="element.html"><h1>Element</h1></a> </li> 
+            </ul>
+        </header>
+
+        <section>
+           <h1>Getting and taking notes always has been one of the toughest job for 
+             he students in their college life.<br> Sometime due to lag of time or sometime due to other
+             projects in hand students are frequently unable to write the notes,<br> which affect their
+             study for examination and practical. </h1>
+        </section>
+        <section>
+        <h2><div> Chennai super kings</div>
+            <div> mumbai indians</div>
+            <div> royal challenchers bangalore</div>
+            <div> delhi capitals</div>
+            <div> kolkata knight riders</div>
+            <div> kings XI panjab</div>
+            <div> sunriser hydreabad</div></h2>
+        </section>
+    </body>
+</html>
